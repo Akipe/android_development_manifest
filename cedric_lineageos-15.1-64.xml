@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/motorola/cedric" name="Akipe/android_device_motorola_cedric-1" remote="github" revision="lineage-15.1-64" />
-    <project path="kernel/motorola/msm8937" name="Akipe/android_kernel_motorola_msm8937" remote="github" revision="lineage-15.1-64" />
-    <project path="vendor/motorola/cedric" name="Akipe/android_vendor_motorola_cedric" remote="github" revision="lineage-15.1-64" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.1" />
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.1" />
+    <project path="device/motorola/cedric"
+        name="Akipe/android_device_motorola_cedric"
+        revision="lineage-15.1-64"
+        remote="github"
+    />
+    <project path="kernel/motorola/msm8937"
+        name="Akipe/android_kernel_motorola_msm8937"
+        revision="lineage-15.1-64"
+        remote="github"
+    />
+    <project path="vendor/motorola/cedric"
+        name="Akipe/android_vendor_motorola_cedric"
+        revision="lineage-15.1-64"
+        remote="github"
+    />
+    <project path="device/qcom/common"
+        name="LineageOS/android_device_qcom_common"
+        revision="lineage-15.1"
+        remote="github"
+    />
+    <project path="packages/resources/devicesettings"
+        name="LineageOS/android_packages_resources_devicesettings"
+        revision="lineage-15.1"
+        remote="github"
+    />
 </manifest>
