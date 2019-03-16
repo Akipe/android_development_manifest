@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- LineageOS Dependency Projects -->
+    <project path="packages/resources/devicesettings"
+        name="LineageOS/android_packages_resources_devicesettings"
+        revision="lineage-16.0"
+        remote="github"
+    />
+    <project path="system/qcom"
+        name="LineageOS/android_system_qcom"
+        revision="lineage-16.0"
+        remote="github"
+    />
+
+    <!-- Moto G5 Cedric Projects -->
+    <project path="device/motorola/cedric"
+        name="Akipe/android_device_motorola_cedric"
+        revision="lineage-16.0"
+        remote="github"
+    />
+    <project path="kernel/motorola/msm8937"
+        name="Akipe/android_kernel_motorola_msm8937"
+        revision="lineage-16.0"
+        remote="github"
+    />
+    <project path="vendor/motorola/cedric"
+        name="Akipe/android_vendor_motorola_cedric"
+        revision="lineage-16.0"
+        remote="github"
+    />
+</manifest>
