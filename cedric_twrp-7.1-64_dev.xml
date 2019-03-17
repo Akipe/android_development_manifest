@@ -13,16 +13,10 @@
     />
 
     <!-- Moto G5 Cedric Projects -->
-    <project path="device/motorola/cedric"
-        name="Akipe/twrp_android_device_motorola_cedric"
-        revision="twrp-7.1-64"
-        remote="github"
-    />
-    <project path="device/motorola/msm8937-common"
-        name="Akipe/twrp_android_device_motorola_msm8937-common"
-        revision="twrp-7.1-64"
-        remote="github"
-    />
+    <!-- 
+        git clone https://github.com/Akipe/twrp_android_device_motorola_cedric -b twrp-7.1-64 device/motorola/cedric
+        git clone https://github.com/Akipe/twrp_android_device_motorola_msm8937-common -b twrp-7.1-64 device/motorola/msm8937-common
+    /> -->
     <project path="kernel/motorola/msm8937"
         name="moto8937/android_kernel_motorola_msm8937"
         revision="cm-14.1"
