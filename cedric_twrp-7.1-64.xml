@@ -6,7 +6,7 @@
         revision="cm-14.1"
         remote="github"
     />
-    <project path="vendor/qcom/cryptfs_hw"
+    <project path="vendor/qcom/opensource/cryptfs_hw"
         name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw"
         revision="cm-14.1"
         remote="github"
