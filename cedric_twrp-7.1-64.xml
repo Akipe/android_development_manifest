@@ -19,8 +19,8 @@
         remote="github"
     />
     <project path="device/motorola/msm8937-common"
-        name="Akipe/twrp_android_device_motorola_msm8937-common"
-        revision="twrp-7.1-64"
+        name="motorolamsm8937-common/android_device_motorola_msm8937-common"
+        revision="twrp-7.1"
         remote="github"
     />
     <project path="kernel/motorola/msm8937"
