@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- TWRP Dependency Projects -->
+    <project path="vendor/qcom/common"
+        name="LineageOS/android_device_qcom_common"
+        revision="cm-14.1"
+        remote="github"
+    />
+    <project path="vendor/qcom/opensource/cryptfs_hw"
+        name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw"
+        revision="cm-14.1"
+        remote="github"
+    />
+
+    <!-- Moto G5 Cedric Projects -->
+    <!-- <project path="device/motorola/cedric"
+        name="Akipe/twrp_android_device_motorola_cedric"
+        revision="twrp-7.1-64"
+        remote="github"
+    />
+    <project path="device/motorola/msm8937-common"
+        name="motorolamsm8937-common/android_device_motorola_msm8937-common"
+        revision="twrp-7.1"
+        remote="github"
+    /> -->
+    <project path="kernel/motorola/msm8937"
+        name="moto8937/android_kernel_motorola_msm8937"
+        revision="cm-14.1"
+        remote="github"
+    />
+</manifest>
