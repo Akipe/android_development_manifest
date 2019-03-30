@@ -12,20 +12,30 @@
         remote="github"
     />
 
+    <!-- Clang Dependency Projects -->
+    <remove-project
+        name="platform/prebuilts/clang/host/linux-x86"
+    /> 
+    <project path="prebuilts/clang/host/linux-x86"
+        name="PixelExperience/prebuilts_clang_host_linux-x86"
+        revision="pie"
+        remote="github"
+    />
+
     <!-- Moto G5 Cedric Projects -->
     <project path="device/motorola/cedric"
-        name="Akipe/android_device_motorola_cedric"
+        name="Akipe/device_motorola_cedric"
         revision="lineage-16.0"
         remote="github"
     />
     <project path="kernel/motorola/msm8937"
-        name="Akipe/android_kernel_motorola_msm8937"
-        revision="lineage-16.0"
+        name="Akipe/kernel_motorola_msm8937"
+        revision="pie"
         remote="github"
     />
     <project path="vendor/motorola/cedric"
-        name="Akipe/android_vendor_motorola_cedric"
-        revision="lineage-16.0"
+        name="Akipe/vendor_motorola_cedric"
+        revision="pie"
         remote="github"
     />
 </manifest>
