@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/samsung/msm8976"
+        name="Akipe/android_device_samsung_gts210vewifi"
+        revision="android-9.0"
+        remote="github"
+    />
+    <project path="kernel/samsung/msm8976"
+        name="LineageOS/android_kernel_samsung_msm8976"
+        revision="lineage-16.0"
+        remote="github"
+    />
+</manifest>
