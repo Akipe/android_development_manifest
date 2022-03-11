@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/samsung/msm8976"
+    <project path="device/samsung/gts210vewifi"
         name="Akipe/android_device_samsung_gts210vewifi"
         revision="android-9.0"
         remote="github"
