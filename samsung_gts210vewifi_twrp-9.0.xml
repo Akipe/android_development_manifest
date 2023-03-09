@@ -25,6 +25,13 @@
         revision="android-9.0"
         remote="github"
     />
+    <!-- TWRP configuration for decryption -->
+    <project
+        path="device/qcom/twrp-common"
+        name="TeamWin/android_device_qcom_twrp-common"
+        revision="android-9.0"
+        remote="github"
+    />
     <!-- Set correct time -->
     <project
         path="hardware/sony/timekeep"
