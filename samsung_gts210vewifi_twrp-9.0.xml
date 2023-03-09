@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/samsung/gts210vewifi"
-        name="Akipe/android_device_samsung_gts210vewifi"
+
+    <!--
+        Manifest for Samsung Galaxy Tab S2 (gts210vewifi/T813) with TWRP
+        You will need initial Android sources with :
+        https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni (branch twrp-9.0)
+        Add the current file to the directory : .repo/local_manifests/
+    -->
+
+    <!-- gst210vewifi device -->
+    <!-- It integrate the kernel prebuilt -->
+    <project
+        path="device/samsung/gts210vewifi"
+        name="Akipe/android_device_samsung_gts210vewifi_twrp"
         revision="android-9.0"
         remote="github"
     />
-    <project path="kernel/samsung/msm8976"
-        name="LineageOS/android_kernel_samsung_msm8976"
-        revision="lineage-16.0"
+
+    <!-- dependencies -->
+    <!-- Manage encryption -->
+    <project
+        path="vendor/qcom/opensource/commonsys"
+        name="omnirom/android_vendor_qcom_opensource_commonsys"
+        revision="android-9.0"
+        remote="github"
+    />
+    <!-- Set correct time -->
+    <project
+        path="hardware/sony/timekeep"
+        name="omnirom/android_hardware_sony_timekeep"
+        revision="android-9.0"
         remote="github"
     />
 </manifest>
